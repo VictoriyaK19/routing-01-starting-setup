@@ -10,7 +10,7 @@ import TheNavigation from './components/nav/TheNavigation.vue';
 
 export default {
   components: {
-    TheNavigation,
+    TheNavigation
   },
   data() {
     return {
@@ -33,7 +33,7 @@ export default {
       teams: this.teams,
       users: this.users,
     };
-  },
+  }
 };
 </script>
 
